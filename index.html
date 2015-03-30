@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
+
 <body>
     <div class="container">
         <!------------NAVIGATION---------------->
@@ -24,15 +25,13 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-road"  aria-hidden="true" style="color: #ca9414"></span></a>
-
                 </div>
-
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="#">Mon auto</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Où pourrais-je bien voyager? <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ma bagnole m'apportera à...  <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Val-d'or</a></li>
                                 <li><a href="#">Boston</a></li>
@@ -51,9 +50,8 @@
                                 <li><a href="#">Mustang 67</a></li>
                                 <li><a href="#">Lincoln 69</a></li>
                                 <li><a href="#">Cadillac 69</a></li>
-                                <li><a href="#">volkswagen Combi</a></li>
+                                <li><a href="#">Volkswagen Combi</a></li>
                                 <li><a href="#">Renault</a></li>
-                                
                             </ul>
                         </li>
                     </ul>
@@ -88,25 +86,23 @@
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Précédente</span>
             </a>
             <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Suivante</span>
             </a>
         </div><!------------FIN CARROUSEL---------------->
 
         <!------------DEUX COLONNES---------------->
         <div class="row" style=" padding: 30px 0 20px 0; margin: 0px;">
             <!------------PREMIERE COLONNE---------------->
-            <div class="col-md-8" style=" padding: 27px 30px 0 0; margin: 0px;">
+            <div class="col-md-8" style=" padding: 27px 0px 0 0; margin: 0px;">
                 <!------------COMPONENTS JUMBOTRON---------------->
-                <div class="jumbotron">
+                <div class="jumbotron" >
                     <h3>"Pour attirer les hommes, je porte un parfum qui s'appelle Intérieur de voiture neuve", Rita Rudner.</h3>
                     <p><a class="btn btn-primary btn-lg" href="#" role="button">En apprendre plus</a></p>
                 </div>
-
-
             </div>
             <!------------DEUXIEME COLONNE---------------->
             <div class="col-md-4">
@@ -135,7 +131,12 @@
 
                             </div>
                         </div>
-
+                        <div class="control-group">
+                            <label class="control-label" for="nom">Votre voiture favorite:</label>
+                            <div class="controls">
+                                <input id="voiture" name="voiture" type="text" placeholder="" class="input-medium">
+                            </div>
+                        </div>    
                         <!-- Textarea -->
                         <div class="control-group">
                             <label class="control-label" for="txtCourriel">Votre message:</label>
@@ -146,21 +147,17 @@
 
                         <!-- Button -->
                         <div class="control-group">
-                            <label class="control-label" for="boutonEnvyer"></label>
+                            <label class="control-label" for="boutonEnvoyer"></label>
                             <div class="controls">
-                                <button id="boutonEnvyer" name="boutonEnvyer" class="btn btn-primary">Envoyer</button>
+                                <button id="boutonEnvoyer" name="boutonEnvoyer" class="btn btn-primary">Envoyer</button>
                             </div>
                         </div>
-
                     </fieldset>
                 </form>
-
-
             </div>
         </div>
     
     </div>
-    
     
     <!----------------------------------
         Fin du code html
